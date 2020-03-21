@@ -1,53 +1,101 @@
 /*--------------------------------Default Fonts and text styles*/
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,300,400,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:300&display=swap");
 
 .title-text{
     color: #fafafa;
-    font-family: "Roboto",sans-serif;
-    font-weight: 300;
+    font-family: 'Noto Sans JP',sans-serif;
+    font-weight: 200;
+}
+.text-color-orange{
+    color: #e84610;
+}
+/*--------------------------------Font Awesome*/
+.fa-align-justify:before {
+    color: #fafafa;
+    font-size: 30px;
 }
 
 
 /*--------------------------------Header*/
+
+
+
+
 header{
     height: 60px;
-    background-color: #3b3b3b
-}
-.logo-text-container,
-.logo-image-container{
-    display: inline-block;
-    margin:0;
-    padding: 0;
+    background-color: #3b3b3b;
     max-height: 60px;
-}
-.logo-image-container{
-    margin-top: 5px;
-}
-
-.logo-container{
-    width: 200px;
-    height:inherit;
+    width: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
-    
-    
-
 }
+
+.inherit-height{
+    height: inherit;
+    
+}
+
+
+.logo-container{
+    height: inherit;
+    max-height: inherit;
+}
+
 .logo{
-    width: 100px;
-    height: 50px;
-    padding: 0;
-    margin: 0 5px;
-    vertical-align: top;
+    height: 60px;
 }
-.logo-text{
-    font-size: 50px;
+.logo-image-container{
+    width: 120px;
+    margin: 0;
+    padding: 0;
     display: inline-block;
-    vertical-align: top;
-    margin: 0 auto;
+    
+}
+.logo-text-container{
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    
+}
+.logo-text-container h1{
+    font-size: 55px;
+    line-height: 53px;
 }
 
-.nav{
-    display: inline-block
+#nav .menuitem{
+    width: justify;
+    min-width: 20%;
+    margin: 15px 2%;
+    padding: 0;
+    float: right;
+    text-align: center;
+
 }
+#nav li{
+    max-height: 30px
+}
+#nav a{
+    color: #fafafa;
+    font-family: "Exo",sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;   
+}
+.menucontainer{
+    height: 60px;
+    max-height: 60px;
+    margin: 0;
+    width: 400px;
+    display: inline-block;
+}
+.hvr-underline-reveal:before {
+    background: #e84610;
+
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+/*--------------------------------Media queries and hidden elements*/
