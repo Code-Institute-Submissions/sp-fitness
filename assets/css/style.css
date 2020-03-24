@@ -2,14 +2,34 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,300,400,500,700&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400&display=swap");
 
+
+
+/*--------------------------------Overwriting Bootstrap*/
+
+.row{
+    margin: 0;
+}
+.col-12{
+    padding: 0;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*--------------------------------Default text*/
 .title-text{
     color: #fafafa;
     font-family: 'Noto Sans JP',sans-serif;
     font-weight: 200;
+    
 }
 .text-color-orange{
     color: #e84610;
 }
+
+
 /*--------------------------------Font Awesome*/
 .fa-align-justify:before {
     color: #fafafa;
@@ -66,9 +86,8 @@ header{
 }
 .logo-text-container{
     display: inline-block;
-    width: 300px;
     position: absolute;
-    
+    width: justify;
 }
 .logo-text-container h1{
     font-size: 55px;
@@ -78,8 +97,9 @@ header{
 #nav .menuitem{
     width: justify;
     min-width: 20%;
-    /* margin: 15px 2%; */
-    margin: 15px 0;
+    margin: 15px 1%;
+    
+    
     padding: 0;
     float: right;
     text-align: center;
@@ -96,15 +116,15 @@ header{
     font-weight: 500;   
 }
 .navbar{
-    z-index: 1;
+    z-index: 2;
 }
 .menucontainer{
     height: 60px;
     max-height: 60px;
     margin: 0;
-    width: 420px;
+    width: 360px; 
     display: inline-block;
-    z-index: 1;
+    z-index: 2;
 }
 .hvr-underline-reveal:before {
     background: #e84610;
@@ -125,6 +145,8 @@ header{
 .dropdown-menu a:hover{
     background-color: #3b3b3b;
 }
+
+
 /*--------------------------------Media queries and hidden elements*/
 @media(max-width: 767px){
     .menucontainer{
@@ -164,7 +186,7 @@ header{
 }
 
 .hero-overlay{
-    height: 60px;
+    height: 30px;
     width: 100%;
     background-color: rgba(232, 70, 16, .5);
     z-index: 1;
@@ -185,7 +207,7 @@ header{
 }
 @media(max-width: 460px){
     .brief-intro-title{
-        font-size: 1em;
+        font-size: 1.2em;
         
     }
 }
@@ -196,6 +218,7 @@ header{
     padding: 0;
     margin: 0;
     max-width: 100%;
+    background-color: 
 }
 .trainer-image{
     width: inherit;
@@ -204,12 +227,43 @@ header{
     padding: 0;
     margin: 0;
     position: relative;
+    width: 100%
 }
-
+.who-am-i-title{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    vertical-align: top;
+}
 .who-am-i{
     background-color:rgba(117, 36, 9);
-    width: 50%;
+    width: 100%;
     position: absolute;
-    height: 60px;
+    height: 30px;
     right: 0;
+    padding-bottom: 8px;
 }
+
+.about-me{
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 0 auto;
+    
+}
+.height-set{
+    height: 30px;
+}
+@media(max-width: 460px){
+    .about-me{
+        font-size: 1em;
+        }
+    .who-am-i{
+        height: 30px;
+    }
+    
+}
+@media(max-width: 380px){
+    .logo-text-container h1{
+        font-size: 40px;
+        line-height: 55px;
+    }
