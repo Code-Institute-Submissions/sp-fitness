@@ -8,6 +8,7 @@
 
 .row{
     margin: 0;
+    min-height: 30px
 }
 .col-12{
     padding: 0;
@@ -196,6 +197,10 @@ header{
 }
 
 /*--------------------------------Brief intro*/
+.brief-intro{
+    background-color: #1b1b1b;
+}
+
 .brief-intro-title{
     text-align: center;
     line-height: 2;
@@ -236,7 +241,7 @@ header{
     vertical-align: top;
 }
 .who-am-i{
-    background-color:rgba(117, 36, 9);
+    background-color:rgb(117, 36, 9);
     width: 100%;
     position: absolute;
     height: 30px;
@@ -267,3 +272,16 @@ header{
         font-size: 40px;
         line-height: 55px;
     }
+}
+/*--------------------------------What can I do for you*/
+.training-main,
+.nutrition-main{
+    background-color: #1b1b1b; 
+    padding: 5px;
+
+
+}
+.title-centre{
+    margin: 0 auto;
+    width: justify;
+}
