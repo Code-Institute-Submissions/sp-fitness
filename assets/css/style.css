@@ -29,8 +29,27 @@
 .text-color-orange{
     color: #e84610;
 }
+.content-text-right,
+.content-text-left{
+    color: #fafafa;
+    font-size: 1em;
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+}
 
+.content-text-right{
+    text-align: right;
+}
+.content-text-left{
+    text-align: left;
+}
 
+.small-title{
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 1.4em;
+
+}
 /*--------------------------------Font Awesome*/
 .fa-align-justify:before {
     color: #fafafa;
@@ -223,7 +242,8 @@ header{
     padding: 0;
     margin: 0;
     max-width: 100%;
-    background-color: 
+    right: 0;
+    float: right;
 }
 .trainer-image{
     width: inherit;
@@ -283,5 +303,5 @@ header{
 }
 .title-centre{
     margin: 0 auto;
-    width: justify;
+    width: fit-content;
 }
