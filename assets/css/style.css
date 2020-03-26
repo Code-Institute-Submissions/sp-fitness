@@ -30,6 +30,7 @@
     color: #e84610;
 }
 .content-text-right,
+.content-text-centre,
 .content-text-left{
     color: #fafafa;
     font-size: 1em;
@@ -42,6 +43,9 @@
 }
 .content-text-left{
     text-align: left;
+}
+.content-text-centre{
+    text-align: center;
 }
 
 .small-title{
@@ -266,7 +270,7 @@ header{
     position: absolute;
     height: 30px;
     right: 0;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
 }
 
 .about-me{
@@ -293,6 +297,10 @@ header{
         line-height: 55px;
     }
 }
+
+.about-me-content{
+    padding-left: 10px;
+}
 /*--------------------------------What can I do for you*/
 .training-main,
 .nutrition-main{
@@ -304,4 +312,10 @@ header{
 .title-centre{
     margin: 0 auto;
     width: fit-content;
+}
+/*--------------------------------Footer*/
+.bg-dark-grey{
+    background-color: #1b1b1b;
+    margin: 0;
+    padding: 0;
 }
