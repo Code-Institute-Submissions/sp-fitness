@@ -318,4 +318,40 @@ header{
     background-color: #1b1b1b;
     margin: 0;
     padding: 0;
+
+}
+
+
+.footer-title{
+    text-align: center;
+}
+.footer-section{
+    padding: 0;
+    width: 100%
+}
+.social-container{
+    position: relative;
+    width: 100%;
+
+}
+.social-container ul{
+    display: block;
+    padding: 0;
+    width:100%;
+
+}
+.social-container li{
+    display: inline-block;
+    width: 23%;
+}
+.social-links-div{
+    padding: 0 auto;
+    display: inline-block;
+    
+
+    
+}
+.social-links{
+    color: #fafafa;
+    text-align: center;
 }
