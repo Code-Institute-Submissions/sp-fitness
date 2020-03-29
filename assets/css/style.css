@@ -368,3 +368,16 @@ header{
     font-weight: inherit;
     text-decoration: underline;
 }
+
+/*--------------------------------Contact-Page*/
+
+.contact-main{
+    background-color: #1b1b1b;
+    margin: 0;
+    padding: 0;
+
+}
+.form-input-item{
+    width: 100%;
+    margin: 10px 0;
+}
