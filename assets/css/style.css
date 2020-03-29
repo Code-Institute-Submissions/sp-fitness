@@ -179,8 +179,8 @@ header{
         margin: 0;
         margin-top: 20px;
         padding: 0;
-        height: 250px;
-        max-height: 250px;
+        height: 200px;
+        max-height: 200px;
     }
     .menuitem{
         color: #fafafa;
@@ -341,12 +341,12 @@ header{
 
 }
 .social-container li{
-    display: inline-block;
+    display: inline-grid;
     width: 23%;
 }
 .social-links-div{
-    padding: 0 auto;
-    display: inline-block;
+    margin: 0 auto;
+    display: grid;
     
 
     
@@ -354,4 +354,17 @@ header{
 .social-links{
     color: #fafafa;
     text-align: center;
+}
+.footer-section p{
+    color: #fafafa;
+    font-family: "exo",sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+.inline-link{
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: underline;
 }
