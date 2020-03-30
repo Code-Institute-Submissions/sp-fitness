@@ -54,6 +54,10 @@
     font-size: 1.4em;
 
 }
+
+.page-title{
+    text-align: center;
+}
 /*--------------------------------Font Awesome*/
 .fa-align-justify:before {
     color: #fafafa;
@@ -297,10 +301,18 @@ header{
         line-height: 55px;
     }
 }
+.about-me-mini-title{
+
+}
 
 .about-me-content{
+    padding-top: 20px;
     padding-left: 10px;
+    display: inline-block;
+    width: 100%;
 }
+
+
 /*--------------------------------What can I do for you*/
 .training-main,
 .nutrition-main{
@@ -381,3 +393,13 @@ header{
     width: 100%;
     margin: 10px 0;
 }
+.form-radio-item{
+    width: 33.33333%
+}
+.contact-header-div{
+    margin: 20px 0
+}
+.contact-intro-container{
+    margin-top: 20px;
+}
+
