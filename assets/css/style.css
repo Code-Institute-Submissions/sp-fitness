@@ -392,14 +392,29 @@ header{
 .form-input-item{
     width: 100%;
     margin: 10px 0;
+    padding: 0 10px;
 }
 .form-radio-item{
-    width: 33.33333%
+    width: 33.33333%;
+    font-size: 0.9em
 }
 .contact-header-div{
     margin: 20px 0
 }
 .contact-intro-container{
-    margin-top: 20px;
-}
+    padding-bottom: 20px;
+    padding-top: 30px;
 
+}
+.submit-btn-container{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.submit-btn{
+    background-color: #e84610;
+    color: #fafafa;
+    margin: 0 auto;
+}
+.hvr-fade:hover{
+    background-color: #c2390c
+}
