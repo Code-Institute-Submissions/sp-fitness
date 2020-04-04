@@ -417,4 +417,29 @@ header{
 }
 .hvr-fade:hover{
     background-color: #c2390c
+}/*--------------------------------Service Pages*/
+.half-screen {
+    min-height: 45vh;
+    background-color: #1b1b1b;
+
+
+}
+.nutrition-section{
+
+}
+.services-title{
+    font-size: 1.5em;
+    text-align: center;
+}
+.image-container,
+.text-container{
+    min-height: inherit;
+    padding: 10px;
+}
+.services-img{
+    width: 100%;
+}
+.review-name{
+    font-size: 1.3em;
+    text-align: center;
 }
