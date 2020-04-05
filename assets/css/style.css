@@ -442,4 +442,21 @@ header{
 .review-name{
     font-size: 1.3em;
     text-align: center;
+    padding: 10px;
+}
+.review-img-container{
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    
+
+}
+.review-img{
+    height: inherit;
+    width: inherit;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    border: 2px solid #e84610
+
 }
