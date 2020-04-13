@@ -387,7 +387,7 @@ header{
     background-color: #1b1b1b;
     margin: 0;
     padding: 0;
-
+    min-height: 85vh;
 }
 .form-input-item{
     width: 100%;
@@ -415,6 +415,11 @@ header{
     color: #fafafa;
     margin: 0 auto;
 }
+.centre-btn{
+    margin: 0 auto;
+    display: grid;
+}
+
 .hvr-fade:hover{
     background-color: #c2390c
 }/*--------------------------------Service Pages*/
