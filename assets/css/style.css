@@ -465,6 +465,9 @@ header{
 .services-img{
     width: 100%;
 }
+.services-textbox{
+    padding-top: 30px
+}
 .review-name{
     font-size: 1.3em;
     text-align: center;
