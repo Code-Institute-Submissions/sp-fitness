@@ -73,7 +73,9 @@
 }
 
 
-
+.bg-color-grey{
+    background-color: #1b1b1b;
+}
 
 /*--------------------------------Header*/
 
@@ -325,6 +327,24 @@ header{
     margin: 0 auto;
     width: fit-content;
 }
+
+.carousel{
+    padding: 20px 0;
+    
+}
+.carousel-img{
+   
+}
+.carousel-overlay{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    color: rgba(232, 70, 16, .5);
+    z-index: 30;
+    height: 100px;
+    width: 100px;
+    
+}
 /*--------------------------------Footer*/
 .bg-dark-grey{
     background-color: #1b1b1b;
@@ -379,6 +399,7 @@ header{
     color: inherit;
     font-weight: inherit;
     text-decoration: underline;
+    
 }
 
 /*--------------------------------Contact-Page*/
