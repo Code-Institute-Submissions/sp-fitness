@@ -26,6 +26,7 @@
     font-weight: 200;
     
 }
+
 .text-color-orange{
     color: #e84610;
 }
@@ -57,6 +58,11 @@
 
 .page-title{
     text-align: center;
+}
+
+a:hover{
+    color: #fafafa;
+    text-decoration: none;
 }
 /*--------------------------------Font Awesome*/
 .fa-align-justify:before {
@@ -230,6 +236,8 @@ header{
     background-color: #1b1b1b;
 }
 
+
+
 .brief-intro-title{
     text-align: center;
     line-height: 2;
@@ -246,21 +254,28 @@ header{
     }
 }
 
+
 .trainer-image-container{
     width: 100%;
     height: fit-content;
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
     max-width: 100%;
     right: 0;
     float: right;
+    
 }
 .trainer-image{
     width: inherit;
 }
+.about-me-text{
+    font-size: 1em;
+}
+
+
 .brief-intro-container{
-    padding: 0;
-    margin: 0;
+    padding-top: 20px;
+    
     position: relative;
     width: 100%
 }
@@ -303,18 +318,30 @@ header{
         line-height: 55px;
     }
 }
-.about-me-mini-title{
 
-}
 
 .about-me-content{
     padding-top: 20px;
     padding-left: 10px;
     display: inline-block;
     width: 100%;
+    position: relative;
 }
 
+@media(min-width:576px){
 
+    .about-me-container{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }  
+    
+}
+@media(min-width:920px){
+    .about-me-text{
+        font-size: 1.2em;
+    }
+}
 /*--------------------------------What can I do for you*/
 .training-main,
 .nutrition-main{
@@ -332,19 +359,43 @@ header{
     padding: 20px 0;
     
 }
-.carousel-img{
-   
-}
+
+
 .carousel-overlay{
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    background-color: rgba(232, 70, 16, .5);
+    width: 100%;
+    background-color: rgba(232, 70, 16, .7);
     z-index: 30;
-    height: 100px;
-    width: 100px;
+    position: absolute;
+    bottom: 20px;
+}
+.carousel-item .small-title{
+        font-size: 1em;
+    }
+
+@media(min-width: 576px){
+    .carousel-overlay{
+        bottom: 50px;
+        right: 50px;
+        height: 150px;
+        width: 300px;
+        
+        
+    }
+    .carousel-item .small-title{
+        font-size: 1.4em;
+        text-align: center;
+    }
+
     
 }
+.bring-to-front{
+    z-index: 99;
+}
+
+
+
+
+
 /*--------------------------------Footer*/
 .bg-dark-grey{
     background-color: #1b1b1b;
