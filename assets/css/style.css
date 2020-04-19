@@ -455,12 +455,22 @@ header{
 
 /*--------------------------------Contact-Page*/
 
+
+
 .contact-main{
     background-color: #1b1b1b;
     margin: 0;
     padding: 0;
     min-height: 85vh;
 }
+
+
+.contact-background{
+    
+    margin: 0 5%
+
+}
+
 .form-input-item{
     width: 100%;
     margin: 10px 0;
@@ -476,7 +486,7 @@ header{
 .contact-intro-container{
     padding-bottom: 20px;
     padding-top: 30px;
-
+    
 }
 .submit-btn-container{
     padding-top: 10px;
@@ -494,7 +504,21 @@ header{
 
 .hvr-fade:hover{
     background-color: #c2390c
-}/*--------------------------------Service Pages*/
+}
+
+@media(min-width:768px){
+    .contact-background{
+    background-color: rgba(27, 27, 27, .7);
+    margin: 5% 20%;
+    }
+    .contact-main{
+    background-color: none;
+    background-image: url("../images/gym.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
+/*--------------------------------Service Pages*/
 .half-screen {
     
     background-color: #1b1b1b;
