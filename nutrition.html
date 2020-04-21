@@ -14,6 +14,9 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -89,7 +92,7 @@
 	</header>
     
 <section>
-		<div class="container-fluid">
+		<div class="container-fluid nutrition-page">
 			<div class="row">
 				<div class="who-am-i"></div>
 			</div>
@@ -125,31 +128,116 @@
                 <div class="col-12 col-md-6 text-container">
                     <h2 class="title-text services-title">Here's A Few Of The Dieting Styles I can Introduce You To!</h2>
                     <div class="row">
-                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-0">
-                            <h3 class="title-text review-name">IIFYM</h3>
-                            <div class="review-img-container"><img src="assets/images/iifym.jpg" alt="Pam-Poovey" class="review-img"></div>
-                                <p class="content-text-centre d-none d-xl-inline">The Bro statement of 'If it fits your macros' has a lot of merit, stating that you can eat whatever you want, as long as you consume 
+                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-1 offset-lg-0">
+                            <h3 class="title-text review-name d-none d-xl-block">IIFYM</h3>
+                            <div class="review-img-container"><img src="assets/images/iifym.jpg" alt="IIFYM" class="review-img"></div>
+                            <div class="centre-btn d-xl-none">
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#iifym-modal">IIFYM</button>
+                            </div>
+                                <p class="content-text-centre text-spacing d-none d-xl-inline">The Bro statement of 'If it fits your macros' has a lot of merit, stating that you can eat whatever you want, as long as you consume 
                                 the right amount of protein, fats and carbohydrates every day.</p>
                        </div>
-                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-0">
-                            <h3 class="title-text review-name">Carb Cycling</h3>
-                            <div class="review-img-container"><img src="assets/images/carb-cycle.jpg" alt="Todd Chavez" class="review-img"></div>
-                            <p class="content-text-centre d-none d-xl-inline">My personal favourite, this famed dieting technique has many variations, but the simplest way to describe it is varying the amount of 
+                        <div class="col-10 offset-1 col-sm-5 offset-sm-0 col-lg-3 offset-md-0 ">
+                            <h3 class="title-text review-name d-none d-xl-block">Carb Cycling</h3>
+                            <div class="review-img-container"><img src="assets/images/carb-cycle.jpg" alt="Carb Cycling" class="review-img"></div>
+                            <div class="centre-btn d-xl-none">
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#carb-cycle-modal">Carb Cycling</button>
+                            </div>
+                            <p class="content-text-centre text-spacing d-none d-xl-inline">My personal favourite, this famed dieting technique has many variations, but the simplest way to describe it is varying the amount of 
                             carbohydrates day to day on order to optimise your metabolism.</p>
                         </div>
-                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-0">
-                            <h3 class="title-text review-name">Ketogenic</h3>
-                            <div class="review-img-container"><img src="assets/images/keto.jpg" alt="keto" class="review-img"></div>
-                            <p class="content-text-centre d-none d-xl-inline">Ketosis is the state your body enters when it runs out of carbs to burn, and this is perhaps the most effective way to burn fat fast.</p>
+                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-1 offset-lg-0">
+                            <h3 class="title-text review-name d-none d-xl-block">Ketogenic</h3>
+                            <div class="review-img-container"><img src="assets/images/keto.jpg" alt="Keto" class="review-img"></div>
+                            <div class="centre-btn d-xl-none">
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#keto-modal">Ketogenic</button>
+                            </div>
+                            <p class="content-text-centre text-spacing d-none d-xl-inline">Ketosis is the state your body enters when it runs out of carbs to burn, and this is perhaps the most effective way to burn fat fast.</p>
                         </div>
-                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-0">
-                            <h3 class="title-text review-name">Vegan</h3>
-                            <div class="review-img-container"><img src="assets/images/vegan.jpg" alt="Summer Smith" class="review-img"></div>
-                            <p class="content-text-centre d-none d-xl-inline">The infamous plant based movement. You know what it is, you've heard all the arguments. And regardless of morality, there is serious 
+                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-sm-0">
+                            <h3 class="title-text review-name d-none d-xl-block">Vegan</h3>
+                            <div class="review-img-container"><img src="assets/images/vegan.jpg" alt="Vegan" class="review-img"></div>
+                            <div class="centre-btn d-xl-none">
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#vegan-modal">Vegan</button>
+                            </div>
+                            <p class="content-text-centre text-spacing d-none d-xl-inline">The infamous plant based movement. You know what it is, you've heard all the arguments. And regardless of morality, there is serious 
                             health and fitness benefits to be gained from this diet.</p>
                         </div>
                     </div>
-                
+                <!--Modals-->
+                <div class="modal fade" id="iifym-modal" tabindex="-1" role="dialog" aria-labelledby="IIFYM-modalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <h5 class="modal-title title-text" id="IIFYM-Modal-Title">IIFYM</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="content-text-left">
+                                    The Bro statement of 'If it fits your macros' has a lot of merit, stating that you can eat whatever you want, as long as you consume 
+                                    the right amount of protein, fats and carbohydrates every day.
+                                </p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="carb-cycle-modal" tabindex="-1" role="dialog" aria-labelledby="carb-cycle-modalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <h5 class="modal-title title-text" id="carb-cycle-modal-title">Carb Cycling</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="content-text-left">
+                                    My personal favourite, this famed dieting technique has many variations, but the simplest way to describe it is varying the amount of 
+                                    carbohydrates day to day on order to optimise your metabolism.
+                                </p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="keto-modal" tabindex="-1" role="dialog" aria-labelledby="Keto-Modal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <h5 class="modal-title title-text" id="keto-modal-Title">Ketogenic</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="content-text-left">
+                                    Ketosis is the state your body enters when it runs out of carbs to burn, and this is perhaps the most effective way to burn fat fast.
+                                </p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="vegan-modal" tabindex="-1" role="dialog" aria-labelledby="Vegan-Modal-Title" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <h5 class="modal-title title-text" id="vegan-modal-title">Vegan</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="content-text-left">
+                                    The infamous plant based movement. You know what it is, you've heard all the arguments. And regardless of morality, there is serious 
+                                    health and fitness benefits to be gained from this diet.
+                                </p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
 

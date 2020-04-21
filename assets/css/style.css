@@ -570,3 +570,30 @@ header{
     border: 2px solid #e84610
 
 }
+
+@media(max-width: 1442px){
+    .text-spacing{
+        font-size: 13px;
+    }
+    .nutrition-page .review-name{
+        font-size: 1em;
+        
+    }
+}
+/*--------------------------------Modals*/
+.modal-content{
+    border: solid 2px #e84610;
+
+}
+.modal-header{
+    background-color: #6c757d;
+}
+.modal-title{
+    font-weight: 500;
+}
+.modal-body{
+    background-color: #1b1b1b;
+}
+.close{
+    color: #fafafa;
+}
