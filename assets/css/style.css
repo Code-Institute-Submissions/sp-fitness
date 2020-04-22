@@ -469,7 +469,9 @@ header{
     padding: 0;
     min-height: 85vh;
 }
-
+.full-screen{
+    min-height: 99vh;
+}
 
 .contact-background{
     

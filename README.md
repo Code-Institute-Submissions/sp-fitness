@@ -1,35 +1,54 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# SP Fitness
 
-Welcome Stevie-P72,
+This website is to advertise the services of a personal trainer, demonstrating his skills and experience, along with short testimonials from former clients.
+The aim of the website is to entice potential future customers to get in contact, and arrange a consultation with the trainer, using the contact section of the page.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+##UX
 
-## Gitpod Reminders
+This website is for people interested in improving their heath and fitness by the way of exercise and dieting.
+The simple, structured layout is designed to be easily navigateable, so that anyone can easily find information relevant to their goals, and are encouraged to get in contact if they wished to take things further.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+For example, an athlete in their mid 20's is looking to get assistance with their nutrition, in preparation for a sporting event, they access the website, and see diet plans advertised throughout the home page.
+As a result they read a little about the types of plan the trainer offers, and then see the option to make contact if they want to know more.
 
-`python3 -m http.server`
+Another example is a person looking to start going to the gym for the first time. They easily view that workout plans are a core part of what the trainer offers, and can then make contact with the trainer to start planning it.
 
-A blue button should appear to click: *Make Public*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
+### Home Page 
+Large hero image at front, with brief introduction to the trainer.
+A carousel, with links to the information about different services the trainer offers.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Contact Page
+Form to provide contact information for potential customers
 
-A blue button should appear to click: *Make Public*,
+## Fitness Page
+Description of trainers view on different styles of workout, along with confirmation that they can vary any style to meet individual needs.
+Reviews at bottom of page from 'happy customers'
 
-Another blue button should appear to click: *Open Browser*.
+### Nutrition Page
+Description of how nutrition impacts health and fitness.
+Brief introduction to various dietary styles, which on smaller screen sizes are replaced with buttons that link to modals.#
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Testing
+I have run through all links on all pages, ensuring they all connect as intended.
+The contact form has been tested, to verify that it cannnot proceed without the name, a valid email address is input, and a success message appears when submitting the request.
+Validating that all text is readable regardless of screen-size, and that images and other media are correctly re-positioned in a pre-planned way when the screen size changes.
 
-## Updates Since The Instructional Video
+## Deployment
+idek
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+##Credits
+###Content
+All text on this site came directly from the developer, with the exception of the quotes on the fitness page, which were quoted from TV shows as follows:
+Todd Chavez: Bojack Horseman
+Pam Poovey: Archer
+Uncle Ruckus: The Boondocks
+Summer Smith: Rick & Morty
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### media
+The Photos on this site are all from sources with permition to use, share or modify
+Find out if I need to find where each photo came from.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Acknoledgements
+I received inspiration from my mentor Gerard, who suggested the use of the carousel and the modal.
