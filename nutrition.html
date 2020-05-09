@@ -1,300 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
-    
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		type="text/css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-		type="text/css">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
-	<title>SP Fitness</title>
-</head>
-
-<body>
-	<header>
-
-		<div class="container-fluid">
-
-			<div class="row no-gutters inherit-height">
-
-				<div class="col-9 col-md-6 logo-container">
-
-
-					<div class="logo-image-container"><a
-							href="index.html"><img src="assets/images/logo.png" class="logo" alt="logo-image"></a>
-					</div>
-					<div class="logo-text-container">
-						<h1 class="title-text logo-text">
-							SP-<span class="text-color-orange">Fit</span><span class = "title-text logo-text d-none d-sm-inline-block">ness</span>
-						</h1>
-					</div>
-
-
-
-				</div>
-
-
-
-				<div class="col-3 col-md-6 inherit-height ml-auto">
-					<nav class="navbar navbar-expand-md">
-						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navdropdown" aria-controls="navdropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span><i class="fa fa-align-justify"></i></span>
-                    </button>
-
-						<div class="collapse navbar-collapse" id="navdropdown">
-							<ul id="nav" class="list-inline menucontainer ml-auto">
-								<li class="list-inline-item menuitem far-right"><a href="contact.html"
-										class="hvr-underline-reveal nav-text">Contact</a></li>
-								<li class="list-inline-item menuitem dropdown d-none d-md-block"><a href="#"
-										class="hvr-underline-reveal nav-text dropdown-toggle" id="navbarsubmenulink"
-										role="button" data-toggle="dropdown" aria-haspopup="true"
-										aria-expanded="false">Services</a>
-									<div class="dropdown-menu" aria-labelledby="navbarsubmenulink">
-
-										<a class="dropdown-item hvr-underline-reveal" href="nutrition.html">Diet
-											Plans</a>
-										<a class="dropdown-item hvr-underline-reveal" href="fitness.html">Workout
-											Routines</a>
-									</div>
-
-								</li>
-								<li class="list-inline-item menuitem d-md-none"><a href="fitness.html"
-										class="hvr-underline-reveal nav-text">Workouts</a></li>
-								<li class="list-inline-item menuitem d-md-none"><a href="nutrition.html"
-										class="hvr-underline-reveal nav-text">Diets</a></li>
-								<li class="list-inline-item menuitem"><a href="index.html"
-										class="hvr-underline-reveal nav-text">Home</a></li>
-
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
-    
-<section>
-		<div class="container-fluid nutrition-page">
-			<div class="row">
-				<div class="who-am-i"></div>
-			</div>
-			<div class="row half-screen fitness-section">
-				
-                <div class="col-12 col-md-8 text-container">
-                    <h2 class="title-text services-title">Ready To Support Your Training With The Right Nutrition?</h2>
-                    <div class="row">
-                           <div class="col-10 offset-1 col-lg-5 services-textbox">
-                                <p class="content-text-centre">It doesn't matter how hard you train. It doesn't matter how many hours you spend doing cardio. If your diet is wrong, you are not going to get the results you want. That's where I Can Guide </p>    
-                            
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+            type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <title>SP Fitness</title>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row no-gutters inherit-height">
+                    <div class="col-9 col-md-6 logo-container">
+                        <div class="logo-image-container">
+                            <a href="index.html"><img src="assets/images/logo.png" class="logo" alt="logo-image"></a>
+                        </div>
+                        <div class="logo-text-container">
+                            <h1 class="title-text logo-text">
+                                SP-<span class="text-color-orange">Fit</span><span class = "title-text logo-text d-none d-sm-inline-block">ness</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 inherit-height ml-auto">
+                        <nav class="navbar navbar-expand-md">
+                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navdropdown" aria-controls="navdropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span><i class="fa fa-align-justify"></i></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navdropdown">
+                                <ul id="nav" class="list-inline menucontainer ml-auto">
+                                    <li class="list-inline-item menuitem far-right"><a href="contact.html"
+                                            class="hvr-underline-reveal nav-text">Contact</a></li>
+                                    <li class="list-inline-item menuitem dropdown d-none d-md-block"><a href="#"
+                                            class="hvr-underline-reveal nav-text dropdown-toggle" id="navbarsubmenulink"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">Services</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarsubmenulink">
+                                            <a class="dropdown-item hvr-underline-reveal" href="nutrition.html">Diet
+                                                Plans</a>
+                                            <a class="dropdown-item hvr-underline-reveal" href="fitness.html">Workout
+                                                Routines</a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item menuitem d-md-none"><a href="fitness.html"
+                                            class="hvr-underline-reveal nav-text">Workouts</a></li>
+                                    <li class="list-inline-item menuitem d-md-none"><a href="nutrition.html"
+                                            class="hvr-underline-reveal nav-text">Diets</a></li>
+                                    <li class="list-inline-item menuitem"><a href="index.html"
+                                            class="hvr-underline-reveal nav-text">Home</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container-fluid nutrition-page">
+                <div class="row">
+                    <div class="who-am-i"></div>
+                </div>
+                <div class="row half-screen fitness-section">
+                    <div class="col-12 col-md-8 text-container">
+                        <h2 class="title-text services-title">Ready To Support Your Training With The Right Nutrition?</h2>
+                        <div class="row">
+                            <div class="col-10 offset-1 col-lg-5 services-textbox">
+                                <p class="content-text-centre">It doesn't matter how hard you train. It doesn't matter how many hours you spend doing cardio. If your diet is wrong, you are not going to get the results you want. That's where I Can Guide </p>        
                             </div>
                             <div class="col-10 offset-1 col-lg-5 services-textbox d-none d-lg-inline">
-                                <p class="content-text-centre">No Matter your goals, the right nutrition is essential to progress, so whether you want the freedom to choose your meals, or want it to be planned in advance, I can help you.</p>    
-                            
+                                    <p class="content-text-centre">No Matter your goals, the right nutrition is essential to progress, so whether you want the freedom to choose your meals, or want it to be planned in advance, I can help you.</p>
                             </div>
-                        </div>
-                </div>
-                <div class="col-12 col-md-4 image-container">
-					<img src="assets/images/apple.jpg" alt="Apple" class="services-img">
-                </div>
-
-
-			</div>
-			<div class="row">
-				<div class="who-am-i"></div>
-			</div>
-    		<div class="row half-screen fitness-section">
-                
-                <div class="col-12 col-md-6 image-container">
-                    <img src="assets/images/chicken.jpg" alt="Chicken Breast" class="services-img">
-                </div>
-                <div class="col-12 col-md-6 text-container">
-                    <h2 class="title-text services-title">Here's A Few Of The Dieting Styles I can Introduce You To!</h2>
-                    <div class="row">
-                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-1 offset-lg-0">
-                            <h3 class="title-text review-name d-none d-xl-block">IIFYM</h3>
-                            <div class="review-img-container"><img src="assets/images/iifym.jpg" alt="IIFYM" class="review-img"></div>
-                            <div class="centre-btn d-xl-none">
-                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#iifym-modal">IIFYM</button>
-                            </div>
-                                <p class="content-text-centre text-spacing d-none d-xl-inline">The Bro statement of 'If it fits your macros' has a lot of merit, stating that you can eat whatever you want, as long as you consume 
-                                the right amount of protein, fats and carbohydrates every day.</p>
-                       </div>
-                        <div class="col-10 offset-1 col-sm-5 offset-sm-0 col-lg-3 offset-md-0 ">
-                            <h3 class="title-text review-name d-none d-xl-block">Carb Cycling</h3>
-                            <div class="review-img-container"><img src="assets/images/carb-cycle.jpg" alt="Carb Cycling" class="review-img"></div>
-                            <div class="centre-btn d-xl-none">
-                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#carb-cycle-modal">Carb Cycling</button>
-                            </div>
-                            <p class="content-text-centre text-spacing d-none d-xl-inline">My personal favourite, this famed dieting technique has many variations, but the simplest way to describe it is varying the amount of 
-                            carbohydrates day to day on order to optimise your metabolism.</p>
-                        </div>
-                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-1 offset-lg-0">
-                            <h3 class="title-text review-name d-none d-xl-block">Ketogenic</h3>
-                            <div class="review-img-container"><img src="assets/images/keto.jpg" alt="Keto" class="review-img"></div>
-                            <div class="centre-btn d-xl-none">
-                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#keto-modal">Ketogenic</button>
-                            </div>
-                            <p class="content-text-centre text-spacing d-none d-xl-inline">Ketosis is the state your body enters when it runs out of carbs to burn, and this is perhaps the most effective way to burn fat fast.</p>
-                        </div>
-                        <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-sm-0">
-                            <h3 class="title-text review-name d-none d-xl-block">Vegan</h3>
-                            <div class="review-img-container"><img src="assets/images/vegan.jpg" alt="Vegan" class="review-img"></div>
-                            <div class="centre-btn d-xl-none">
-                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#vegan-modal">Vegan</button>
-                            </div>
-                            <p class="content-text-centre text-spacing d-none d-xl-inline">The infamous plant based movement. You know what it is, you've heard all the arguments. And regardless of morality, there is serious 
-                            health and fitness benefits to be gained from this diet.</p>
                         </div>
                     </div>
-                <!--Modals-->
-                <div class="modal fade" id="iifym-modal" tabindex="-1" role="dialog" aria-labelledby="IIFYM-modalTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                    <h5 class="modal-title title-text" id="IIFYM-Modal-Title">IIFYM</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            </div>
-                            <div class="modal-body">
-                                <p class="content-text-left">
-                                    The Bro statement of 'If it fits your macros' has a lot of merit, stating that you can eat whatever you want, as long as you consume 
-                                    the right amount of protein, fats and carbohydrates every day.
-                                </p>
-                            </div>   
-                        </div>
+                    <div class="col-12 col-md-4 image-container">
+                        <img src="assets/images/apple.jpg" alt="Apple" class="services-img">
                     </div>
                 </div>
-                <div class="modal fade" id="carb-cycle-modal" tabindex="-1" role="dialog" aria-labelledby="carb-cycle-modalTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                    <h5 class="modal-title title-text" id="carb-cycle-modal-title">Carb Cycling</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                <div class="row">
+                    <div class="who-am-i"></div>
+                </div>
+                <div class="row half-screen fitness-section">          
+                    <div class="col-12 col-md-6 image-container">
+                        <img src="assets/images/chicken.jpg" alt="Chicken Breast" class="services-img">
+                    </div>
+                    <div class="col-12 col-md-6 text-container">
+                        <h2 class="title-text services-title">Here's A Few Of The Dieting Styles I can Introduce You To!</h2>
+                        <div class="row">
+                            <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-1 offset-lg-0">
+                                <h3 class="title-text review-name d-none d-xl-block">IIFYM</h3>
+                                <div class="review-img-container"><img src="assets/images/iifym.jpg" alt="IIFYM" class="review-img"></div>
+                                <div class="centre-btn d-xl-none">
+                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#iifym-modal">IIFYM</button>
+                                </div>
+                                    <p class="content-text-centre text-spacing d-none d-xl-inline">The Bro statement of 'If it fits your macros' has a lot of merit, stating that you can eat whatever you want, as long as you consume 
+                                    the right amount of protein, fats and carbohydrates every day.</p>
+                        </div>
+                            <div class="col-10 offset-1 col-sm-5 offset-sm-0 col-lg-3 offset-md-0 ">
+                                <h3 class="title-text review-name d-none d-xl-block">Carb Cycling</h3>
+                                <div class="review-img-container"><img src="assets/images/carb-cycle.jpg" alt="Carb Cycling" class="review-img"></div>
+                                <div class="centre-btn d-xl-none">
+                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#carb-cycle-modal">Carb Cycling</button>
+                                </div>
+                                <p class="content-text-centre text-spacing d-none d-xl-inline">My personal favourite, this famed dieting technique has many variations, but the simplest way to describe it is varying the amount of 
+                                carbohydrates day to day on order to optimise your metabolism.</p>
                             </div>
-                            <div class="modal-body">
-                                <p class="content-text-left">
-                                    My personal favourite, this famed dieting technique has many variations, but the simplest way to describe it is varying the amount of 
-                                    carbohydrates day to day on order to optimise your metabolism.
-                                </p>
-                            </div>   
+                            <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-md-1 offset-lg-0">
+                                <h3 class="title-text review-name d-none d-xl-block">Ketogenic</h3>
+                                <div class="review-img-container"><img src="assets/images/keto.jpg" alt="Keto" class="review-img"></div>
+                                <div class="centre-btn d-xl-none">
+                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#keto-modal">Ketogenic</button>
+                                </div>
+                                <p class="content-text-centre text-spacing d-none d-xl-inline">Ketosis is the state your body enters when it runs out of carbs to burn, and this is perhaps the most effective way to burn fat fast.</p>
+                            </div>
+                            <div class="col-10 offset-1 col-sm-5 col-lg-3 offset-sm-0">
+                                <h3 class="title-text review-name d-none d-xl-block">Vegan</h3>
+                                <div class="review-img-container"><img src="assets/images/vegan.jpg" alt="Vegan" class="review-img"></div>
+                                <div class="centre-btn d-xl-none">
+                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#vegan-modal">Vegan</button>
+                                </div>
+                                <p class="content-text-centre text-spacing d-none d-xl-inline">The infamous plant based movement. You know what it is, you've heard all the arguments. And regardless of morality, there is serious 
+                                health and fitness benefits to be gained from this diet.</p>
+                            </div>
+                        </div>
+                    <!--Modals-->
+                    <div class="modal fade" id="iifym-modal" tabindex="-1" role="dialog" aria-labelledby="IIFYM-modalTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                        <h5 class="modal-title title-text" id="IIFYM-Modal-Title">IIFYM</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="content-text-left">
+                                        The Bro statement of 'If it fits your macros' has a lot of merit, stating that you can eat whatever you want, as long as you consume 
+                                        the right amount of protein, fats and carbohydrates every day.
+                                    </p>
+                                </div>   
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="modal fade" id="keto-modal" tabindex="-1" role="dialog" aria-labelledby="Keto-Modal" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                    <h5 class="modal-title title-text" id="keto-modal-Title">Ketogenic</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                    <div class="modal fade" id="carb-cycle-modal" tabindex="-1" role="dialog" aria-labelledby="carb-cycle-modalTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                        <h5 class="modal-title title-text" id="carb-cycle-modal-title">Carb Cycling</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="content-text-left">
+                                        My personal favourite, this famed dieting technique has many variations, but the simplest way to describe it is varying the amount of 
+                                        carbohydrates day to day on order to optimise your metabolism.
+                                    </p>
+                                </div>   
                             </div>
-                            <div class="modal-body">
-                                <p class="content-text-left">
-                                    Ketosis is the state your body enters when it runs out of carbs to burn, and this is perhaps the most effective way to burn fat fast.
-                                </p>
-                            </div>   
                         </div>
                     </div>
-                </div>
-                <div class="modal fade" id="vegan-modal" tabindex="-1" role="dialog" aria-labelledby="Vegan-Modal-Title" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                    <h5 class="modal-title title-text" id="vegan-modal-title">Vegan</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                    <div class="modal fade" id="keto-modal" tabindex="-1" role="dialog" aria-labelledby="Keto-Modal" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                        <h5 class="modal-title title-text" id="keto-modal-Title">Ketogenic</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="content-text-left">
+                                        Ketosis is the state your body enters when it runs out of carbs to burn, and this is perhaps the most effective way to burn fat fast.
+                                    </p>
+                                </div>   
                             </div>
-                            <div class="modal-body">
-                                <p class="content-text-left">
-                                    The infamous plant based movement. You know what it is, you've heard all the arguments. And regardless of morality, there is serious 
-                                    health and fitness benefits to be gained from this diet.
-                                </p>
-                            </div>   
+                        </div>
+                    </div>
+                    <div class="modal fade" id="vegan-modal" tabindex="-1" role="dialog" aria-labelledby="Vegan-Modal-Title" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                        <h5 class="modal-title title-text" id="vegan-modal-title">Vegan</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="content-text-left">
+                                        The infamous plant based movement. You know what it is, you've heard all the arguments. And regardless of morality, there is serious 
+                                        health and fitness benefits to be gained from this diet.
+                                    </p>
+                                </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-
-
-
-        </div>
-
-
-		</div>
-
-
-
-
-    </section>
-
-
-    <footer class="bg-dark-grey">
-
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12 who-am-i"></div>
-
-			</div>
-			<div class="row">
-				<div class="col-sm-6 footer-section">
-					<h5 class="title-text footer-title">Want To Know More?</h5>
-					<p class="content-text-centre">Why not <a href="contact.html" class="inline-link">send me a message?</a> Tell me about your goals, and I'll tell
-						you how to get there</p>
-				</div>
-				<div class="col-sm-6 footer-section">
-					<h5 class="title-text footer-title">My Social Media</h5>
-					<div class="social-container">
-						<ul>
-							<li>
-								<div class="social-links-div"><a href="#" target="_blank"
-										class="social-links"><p class = "d-none d-md-inline">Facebook  </p><i class="fa fa-facebook-square"></i></a></div>
-							</li>
-							<li>
-								<div class="social-links-div"><a href="#" target="_blank"
-										class="social-links"><p class = "d-none d-md-inline">Youtube  </p><i class="fa fa-youtube-play"></i></a></div>
-							</li>
-							<li>
-								<div class="social-links-div"><a href="#" target="_blank"
-										class="social-links"><p class = "d-none d-md-inline">Instagram  </p><i class="fa fa-instagram"></i></a></div>
-							</li>
-							<li>
-								<div class="social-links-div"><a href="#" target="_blank"
-										class="social-links"><p class = "d-none d-md-inline">Twitter  </p><i class="fa fa-twitter-square"></i></a></div>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-
-	</footer>
-</body>
+            </div>
+        </section>
+        <footer class="bg-dark-grey">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 who-am-i"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 footer-section">
+                        <h5 class="title-text footer-title">Want To Know More?</h5>
+                        <p class="content-text-centre">Why not <a href="contact.html" class="inline-link">send me a message?</a> Tell me about your goals, and I'll tell
+                            you how to get there</p>
+                    </div>
+                    <div class="col-sm-6 footer-section">
+                        <h5 class="title-text footer-title">My Social Media</h5>
+                        <div class="social-container">
+                            <ul>
+                                <li>
+                                    <div class="social-links-div"><a href="#" target="_blank"
+                                            class="social-links"><p class = "d-none d-md-inline">Facebook  </p><i class="fa fa-facebook-square"></i></a></div>
+                                </li>
+                                <li>
+                                    <div class="social-links-div"><a href="#" target="_blank"
+                                            class="social-links"><p class = "d-none d-md-inline">Youtube  </p><i class="fa fa-youtube-play"></i></a></div>
+                                </li>
+                                <li>
+                                    <div class="social-links-div"><a href="#" target="_blank"
+                                            class="social-links"><p class = "d-none d-md-inline">Instagram  </p><i class="fa fa-instagram"></i></a></div>
+                                </li>
+                                <li>
+                                    <div class="social-links-div"><a href="#" target="_blank"
+                                            class="social-links"><p class = "d-none d-md-inline">Twitter  </p><i class="fa fa-twitter-square"></i></a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

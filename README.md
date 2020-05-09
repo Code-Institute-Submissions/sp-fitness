@@ -22,13 +22,13 @@ A carousel, with links to the information about different services the trainer o
 ### Contact Page
 Form to provide contact information for potential customers
 
-## Fitness Page
+### Fitness Page
 Description of trainers view on different styles of workout, along with confirmation that they can vary any style to meet individual needs.
-Reviews at bottom of page from 'happy customers'
+Reviews at bottom of page from 'happy' customers
 
 ### Nutrition Page
 Description of how nutrition impacts health and fitness.
-Brief introduction to various dietary styles, which on smaller screen sizes are replaced with buttons that link to modals.#
+Brief introduction to various dietary styles, which on smaller screen sizes are replaced with buttons that link to modals.
 
 ## Testing
 I have run through all links on all pages, ensuring they all connect as intended.
@@ -36,7 +36,7 @@ The contact form has been tested, to verify that it cannnot proceed without the 
 Validating that all text is readable regardless of screen-size, and that images and other media are correctly re-positioned in a pre-planned way when the screen size changes.
 
 ## Deployment
-idek
+Utilised GitHub for deploying this website
 
 ##Credits
 ###Content
@@ -46,9 +46,8 @@ Pam Poovey: Archer
 Uncle Ruckus: The Boondocks
 Summer Smith: Rick & Morty
 
-### media
-The Photos on this site are all from sources with permition to use, share or modify
-Find out if I need to find where each photo came from.
+### Media
+The photos on this website were obtained through searching images on google with right to use, share and modify.
 
 ### Acknoledgements
 I received inspiration from my mentor Gerard, who suggested the use of the carousel and the modal.
