@@ -6,22 +6,28 @@
     margin: 0;
     min-height: 30px
 }
+
 .col-12{
     padding: 0;
 }
+
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
 }
+
 /*--------------------------------Default text*/
+
 .title-text{
     color: #fafafa;
     font-family: 'Noto Sans JP',sans-serif;
     font-weight: 200; 
 }
+
 .text-color-orange{
     color: #e84610;
 }
+
 .content-text-right,
 .content-text-centre,
 .content-text-left{
@@ -30,43 +36,56 @@
     font-family: "Exo",sans-serif;
     font-weight: 300;
 }
+
 .content-text-right{
     text-align: right;
 }
+
 .content-text-left{
     text-align: left;
 }
+
 .content-text-centre{
     text-align: center;
 }
+
 .small-title{
     text-decoration: none;
     color: #fafafa;
     font-size: 1.4em;
 }
+
 .page-title{
     text-align: center;
 }
+
 a:hover{
     color: #fafafa;
     text-decoration: none;
 }
+
 /*--------------------------------Font Awesome*/
+
 .fa-align-justify:before {
     color: #fafafa;
     font-size: 30px;
 }
+
 /*--------------------------------general layout*/
+
 .divider{
     width: 100%;
     height: 60px;
     background-color: #3b3b3b;
     margin: 0;
 }
+
 .bg-color-grey{
     background-color: #1b1b1b;
 }
+
 /*--------------------------------Header*/
+
 header{
     height: 60px;
     background-color: #3b3b3b;
@@ -77,31 +96,38 @@ header{
     margin: 0;
     padding: 0;
 }
+
 .inherit-height{
     height: inherit;   
 }
+
 .logo-container{
     height: inherit;
     max-height: inherit;
 }
+
 .logo{
     height: 60px;
 }
+
 .logo-image-container{
     width: 120px;
     margin: 0;
     padding: 0;
     display: inline-block;   
 }
+
 .logo-text-container{
     display: inline-block;
     position: absolute;
     width: justify;
 }
+
 .logo-text-container h1{
     font-size: 55px;
     line-height: 53px;
 }
+
 #nav .menuitem{
     width: justify;
     min-width: 20%;
@@ -110,14 +136,17 @@ header{
     float: right;
     text-align: center;   
 }
+
 #nav li{
     max-height: 30px
 }
+
 @media(max-width: 767px){
     #nav .nav-text{
         font-size: 1em;
     }
 }
+
 #nav a{
     color: #fafafa;
     font-family: "Exo",sans-serif;
@@ -125,9 +154,11 @@ header{
     text-decoration: none;
     font-weight: 500;   
 }
+
 .navbar{
     z-index: 2;
 }
+
 .menucontainer{
     height: 60px;
     max-height: 60px;
@@ -136,26 +167,33 @@ header{
     display: inline-block;
     z-index: 2;
 }
+
 .hvr-underline-reveal:before {
     background: #e84610;
 }
+
 .navbar{
     padding: 0 5% 0 0;
     margin: 0;
     height: 60px;
 }
+
 .dropdown-menu{
     background-color: #3b3b3b;
 }
+
 #nav .dropdown-item{
     font-family: "Exo",sans-serif;
     color: #fafafa;
     font-size: 1em;
 }
+
 .dropdown-menu a:hover{
     background-color: #3b3b3b;
 }
+
 /*--------------------------------Media queries and hidden elements*/
+
 @media(max-width: 767px){
     .menucontainer{
         width: 100%;
@@ -166,6 +204,7 @@ header{
         height: 200px;
         max-height: 200px;
     }
+
     .menuitem{
         color: #fafafa;
         display: block;
@@ -173,14 +212,16 @@ header{
         height: 20px;       
     }
 }
+
 /*--------------------------------Hero Image*/
+
 .hero-image-container{
     margin: 0;
     padding:0;
     max-height: 80vh;
-    position: relative;
-    
+    position: relative;    
 }
+
 .hero-image{
     width: 100%;
     margin: 0;
@@ -188,6 +229,7 @@ header{
     height: inherit;
     max-height: inherit   
 }
+
 .hero-overlay{
     height: 30px;
     width: 100%;
@@ -196,10 +238,13 @@ header{
     bottom: 0;   
     position: absolute;
 }
+
 /*--------------------------------Brief intro*/
+
 .brief-intro{
     background-color: #1b1b1b;
 }
+
 .brief-intro-title{
     text-align: center;
     line-height: 2;
@@ -207,12 +252,14 @@ header{
     color: #fafafa;
     letter-spacing: 2px    
 }
+
 @media(max-width: 460px){
     .brief-intro-title{
         font-size: 1.2em;
         
     }
 }
+
 .trainer-image-container{
     width: 100%;
     height: fit-content;
@@ -222,23 +269,28 @@ header{
     right: 0;
     float: right;    
 }
+
 .trainer-image{
     width: inherit;
 }
+
 .about-me-text{
     font-size: 1em;
 }
+
 .brief-intro-container{
     padding-top: 20px;   
     position: relative;
     width: 100%
 }
+
 .who-am-i-title{
     width: max-content;
     height: max-content;
     margin: auto;
     vertical-align: top;
 }
+
 .who-am-i{
     background-color:rgb(117, 36, 9);
     width: 100%;
@@ -247,14 +299,17 @@ header{
     right: 0;
     padding-bottom: 4px;
 }
+
 .about-me{
     font-size: 1.6em;
     font-weight: 400;
     margin: 0 auto;   
 }
+
 .height-set{
     height: 30px;
 }
+
 @media(max-width: 460px){
     .about-me{
         font-size: 1em;
@@ -263,12 +318,14 @@ header{
         height: 30px;
     }
 }
+
 @media(max-width: 380px){
     .logo-text-container h1{
         font-size: 40px;
         line-height: 55px;
     }
 }
+
 .about-me-content{
     padding-top: 20px;
     padding-left: 10px;
@@ -276,6 +333,7 @@ header{
     width: 100%;
     position: relative;
 }
+
 @media(min-width:576px){
     .about-me-container{
         position: absolute;
@@ -283,25 +341,31 @@ header{
         transform: translateY(-50%);
     }  
 }    
+
 @media(min-width:920px){
     .about-me-text{
         font-size: 1.2em;
     }
 }
+
 /*--------------------------------What can I do for you*/
+
 .training-main,
 .nutrition-main{
     background-color: #1b1b1b; 
     padding: 5px;
 }
+
 .title-centre{
     margin: 0 auto;
     width: fit-content;
 }
+
 .carousel{
     padding: 20px 0;
     
 }
+
 .carousel-overlay{
     width: 100%;
     background-color: rgba(232, 70, 16, .7);
@@ -309,9 +373,11 @@ header{
     position: absolute;
     bottom: 20px;
 }
+
 .carousel-item .small-title{
         font-size: 1em;
     }
+
 @media(min-width: 576px){
     .carousel-overlay{
         bottom: 50px;
@@ -319,54 +385,67 @@ header{
         height: 150px;
         width: 300px;   
     }
+
     .carousel-item .small-title{
         font-size: 1.4em;
         text-align: center;
     }   
 }
+
 .bring-to-front{
     z-index: 99;
 }
+
 /*--------------------------------Footer*/
+
 .bg-dark-grey{
     background-color: #1b1b1b;
     margin: 0;
     padding: 0;
 }
+
 .footer-title{
     text-align: center;
 }
+
 .footer-section{
     padding: 0;
     width: 100%
 }
+
 .social-container{
     position: relative;
     width: 100%;
 }
+
 .social-container ul{
     display: block;
     padding: 0;
     width:100%;
 }
+
 .social-container li{
     display: inline-grid;
     width: 23%;
 }
+
 .social-links-div{
     margin: 0 auto;
     display: grid;    
 }
+
 .social-links{
     color: #fafafa;
     text-align: center;
 }
+
 .footer-section p{
     color: #fafafa;
     font-family: "exo",sans-serif;
     font-weight: 300;
     font-size: 0.8em;
 }
+
 .inline-link{
     font-family: inherit;
     font-size: inherit;
@@ -374,56 +453,70 @@ header{
     font-weight: inherit;
     text-decoration: underline;
 }
+
 /*--------------------------------Contact-Page*/
+
 .contact-main{
     background-color: #1b1b1b;
     margin: 0;
     padding: 0;
     min-height: 85vh;
 }
+
 .full-screen{
     min-height: 99vh;
 }
+
 .contact-background{   
     margin: 0 5%
 }
+
 .form-input-item{
     width: 100%;
     margin: 10px 0;
     padding: 0 10px;
 }
+
 .form-radio-item{
     width: 33.33333%;
     font-size: 0.9em
 }
+
 .contact-header-div{
     margin: 20px 0
 }
+
 .contact-intro-container{
     padding-bottom: 20px;
     padding-top: 30px;   
 }
+
 .submit-btn-container{
     padding-top: 10px;
     padding-bottom: 20px;
 }
+
 .submit-btn{
     background-color: #e84610;
     color: #fafafa;
     margin: 0 auto;
 }
+
 .centre-btn{
     margin: 0 auto;
     display: grid;
 }
+
 .hvr-fade:hover{
     background-color: #c2390c
 }
+
 @media(min-width:768px){
     .contact-background{
     background-color: rgba(27, 27, 27, .7);
     margin: 5% 20%;
     }
+
     .contact-main{
     background-color: none;
     background-image: url("../images/gym.jpg");
@@ -431,35 +524,44 @@ header{
     background-repeat: no-repeat;
     }
 }
+
 /*--------------------------------Service Pages*/
+
 .half-screen {   
     background-color: #1b1b1b;
 }
+
 .services-title{
     font-size: 1.5em;
     text-align: center;
 }
+
 .image-container,
 .text-container{
     min-height: inherit;
     padding: 10px;
 }
+
 .services-img{
     width: 100%;
 }
+
 .services-textbox{
     padding-top: 30px
 }
+
 .review-name{
     font-size: 1.3em;
     text-align: center;
     padding: 10px;
 }
+
 .review-img-container{
     width: 70px;
     height: 70px;
     margin: 20px auto;   
 }
+
 .review-img{
     height: inherit;
     width: inherit;
@@ -468,27 +570,35 @@ header{
     border-radius: 50%;
     border: 2px solid #e84610
 }
+
 @media(max-width: 1442px){
     .text-spacing{
         font-size: 13px;
     }
+
     .nutrition-page .review-name{
         font-size: 1em;       
     }
 }
+
 /*--------------------------------Modals*/
+
 .modal-content{
     border: solid 2px #e84610;
 }
+
 .modal-header{
     background-color: #6c757d;
 }
+
 .modal-title{
     font-weight: 500;
 }
+
 .modal-body{
     background-color: #1b1b1b;
 }
+
 .close{
     color: #fafafa;
 }
